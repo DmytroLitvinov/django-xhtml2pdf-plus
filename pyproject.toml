@@ -56,7 +56,7 @@ dev = [
 [project.urls]
 Homepage = "https://github.com/DmytroLitvinov/django-xhtml2pdf-plus"
 Issues = "https://github.com/DmytroLitvinov/django-xhtml2pdf-plus/issues"
-Changelog = "https://github.com/DmytroLitvinov/django-xhtml2pdf-plus/CHANGELOG.md"
+Changelog = "https://github.com/DmytroLitvinov/django-xhtml2pdf-plus/blob/main/CHANGELOG.md"
 
 [tool.setuptools.packages.find]
 include = ["django_xhtml2pdf_plus*"]

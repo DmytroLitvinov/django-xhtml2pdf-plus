@@ -15,3 +15,15 @@ Install the package via pip:
 ```bash
 pip install django-xhtml2pdf-plus
 ```
+
+# Usage:
+
+```python
+# Import PDFView in your views.py
+
+from django_xhtml2pdf_plus.views import PDFView
+
+class MyPDFView(PDFView):
+    template_name = 'my_template.html'
+    filename = 'my_pdf.pdf'
+```
